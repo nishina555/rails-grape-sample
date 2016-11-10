@@ -3,7 +3,7 @@ module API
     class Base < Grape::API
       format :json
       prefix :api # /apiというパスになる
-      version 'vi', using: :path # /api/v1というパスになる
+      version 'v1', using: :path # /api/v1というパスになる
 
       # 404 error
 

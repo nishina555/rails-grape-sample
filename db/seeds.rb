@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Event.create!({title: 'event1 title', body: 'this is the body of event1'})
+Comment.create!({event_id: 1, body: 'this is the body of comment1'})
